@@ -1,5 +1,4 @@
 import { useEffect, useLayoutEffect, useState } from "react";
-import "./App.css";
 import HourHand from "./components/hour-hand";
 function convertToDeg(number: number) {
     return number % 360;
